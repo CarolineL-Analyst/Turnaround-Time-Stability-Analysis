@@ -2,6 +2,18 @@
 
 While Turnaround Time (TRT) exists across domains (e.g., ticket resolution), this analysis is optimized for production and MRO environments, where variability directly impacts asset availability and delivery commitments.
 
+## Why This Matters
+
+Operational performance often appears “normal” when viewed through averages alone.  
+This project demonstrates how combining rolling statistics, z-scores, and coefficient of variation can reveal **hidden instability** in turnaround time that traditional KPIs may overlook.
+
+By distinguishing short-term anomalies from long-term process volatility, this analysis helps teams:
+- Identify when “normal” performance is actually built on an unstable baseline
+- Set more realistic delivery expectations for time-sensitive work
+- Focus investigation and discussion where it matters most
+
+While TRT exists across domains (e.g., ticket resolution), this analysis is optimized for **production and MRO environments**, where variability directly impacts asset availability.
+
 ## Overview
 This project analyzes Turnaround Time (TRT) behavior at the **Part No + Workscope** level to assess **process stability, volatility, and anomaly patterns over time**.
 
