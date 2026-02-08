@@ -38,12 +38,12 @@
 
 ## Methodology
 
-- Aggregate TRT at the **Part No + Workscope** level (project-level aggregation)  
-- Compute **12-period rolling average**  
-- Compute **12-period rolling standard deviation** (STDEV, STDEVP)  
-- Calculate **z-scores** to identify unusual periods relative to recent history  
-- Calculate **12-period rolling Coefficient of Variation (CV)** to analyze trend stability  
-- Analysis is parameterized by **Part No, Workscope, and reporting period**  
+1. Aggregate TRT at the **Part No + Workscope** level (project-level aggregation)  
+2. Compute **12-period rolling average**  
+3. Compute **12-period rolling standard deviation** (STDEV, STDEVP)  
+4. Calculate **z-scores** to identify unusual periods relative to recent history  
+5. Calculate **12-period rolling Coefficient of Variation (CV)** to analyze trend stability  
+6. Analysis is parameterized by **Part No, Workscope, and reporting period**  
 
 ---
 
