@@ -118,6 +118,9 @@ Across both work scopes, TRT exhibits **substantial variability** over time.
 In some cases, **z-scores remain within normal ranges** while the **rolling coefficient of variation (CV) remains persistently high**.  
 This indicates that although no single period deviates sharply from recent history, the underlying process exhibits inherent volatility.
 
+In project-based operational environments, rolling CV values are often structurally elevated due to workload heterogeneity and timing effects.
+As a result, interpretation should focus on directional changes in CV over time, rather than absolute CV levels.
+
 A low or moderate z-score combined with a high rolling CV suggests that stability is relative to an **unstable baseline** rather than indicative of a controlled or predictable process.  
 In other words, current performance may appear “normal” only because historical behavior itself has been highly variable.
 
