@@ -2,6 +2,8 @@
 
 ### Purpose
 
+While TRT exists across multiple domains (e.g., ticket resolution), this analysis is optimized for production and MRO environments where variability directly impacts operational planning and asset availability.
+
 This analysis provides a structured, repeatable way to review **Turnaround Time (TRT)** behavior for the same **Part Number** and **Workscope** over time.
 
 Its purpose is not to judge performance in isolation, but to highlight periods where TRT behavior deviates from recent historical patterns and may warrant further review.
@@ -44,6 +46,8 @@ Results are intended to support **operational review discussions**.
 
 When unusual periods are identified, users are encouraged to examine contextual factors such as workload volume, staffing capacity, process or routing changes, or data-entry practices before drawing conclusions.
 This approach helps narrow attention to a manageable set of periods or **Part Number / Workscope** combinations, enabling more effective follow-up without requiring detailed inspection of every individual work order.
+
+In practice, this means review discussions should focus not only on whether TRT is high or low, but on whether it is becoming more or less predictable over time.
 
 ---
 
